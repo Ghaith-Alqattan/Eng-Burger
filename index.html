@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eng-Burger</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- normalization css file -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font-awesaome all.min file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Eng-Burger css main file -->
+    <link rel="stylesheet" href="css/Eng-Burger.css" />
+    <!-- dancing script cursive font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700;800&family=Rubik:wght@500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Open sans google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Rubik:wght@500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesaome icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- start header  -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="header-logo"><a href="#home">Eng-Burger</a></div>
+          <ul>
+            <li><a class="home-link" href="#home">home</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#about">about</a></li>
+          </ul>
+          <div class="header-icons">
+            <i class="fas fa-user-alt"></i>
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start landing -->
+    <div id="home" class="landing">
+      <div class="hero">
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100">
+                  <h1>Fast Food Restaurant</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi nesciunt molestias, a labore non necessitatibus,
+                    fugiat doloribus vitae eos excepturi tenetur ullam. Corporis
+                    quae incidunt ut labore praesentium voluptate facilis.
+                  </p>
+                  <div class="slide-button">ORDER NOW</div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <h1>Fast Food Restaurant</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi nesciunt molestias, a labore non necessitatibus,
+                    fugiat doloribus vitae eos excepturi tenetur ullam. Corporis
+                    quae incidunt ut labore praesentium voluptate facilis.
+                  </p>
+                  <div class="slide-button">ORDER NOW</div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <h1>Fast Food Restaurant</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi nesciunt molestias, a labore non necessitatibus,
+                    fugiat doloribus vitae eos excepturi tenetur ullam. Corporis
+                    quae incidunt ut labore praesentium voluptate facilis.
+                  </p>
+                  <div class="slide-button">ORDER NOW</div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start sales -->
+    <div class="sales-cards">
+      <div class="container">
+        <div class="cards-container">
+          <!-- card one  -->
+          <div class="card">
+            <div class="card-content">
+              <div class="sale-image">
+                <img src="images/o1.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h2>tasty thursdays</h2>
+                <h1>20% off</h1>
+                <div class="button">
+                  <div class="text">ORDER NOW</div>
+                  <i class="fa fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card two  -->
+          <div class="card">
+            <div class="card-content">
+              <div class="sale-image">
+                <img src="images/o2.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h2>pizza days</h2>
+                <h1>15% off</h1>
+                <div class="button">
+                  <div class="text">ORDER NOW</div>
+                  <i class="fa fa-cart-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end sales -->
+    <!-- start menu  -->
+    <div id="menu" class="menu">
+      <div class="container">
+        <div class="special-heading">
+          <h1>Our Menu</h1>
+        </div>
+        <div class="menu-cards">
+          <!-- card one  -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f1.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>Delicious pizza</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$20</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card two  -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f2.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>Delicious Burger</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$15</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-three  -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f3.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>Delicious pizza</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$17</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card four -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f4.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>Delicious Pasta</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$18</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card five -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f5.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>French Fries</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$10</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card six -->
+          <div class="card">
+            <div class="card-content">
+              <div class="card-image">
+                <img src="images/f6.png" alt="" />
+              </div>
+              <div class="info">
+                <h3>Delicious pizza</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam non cumque iure impedit deserunt molestiae quisquam
+                </p>
+                <div class="event">
+                  <div class="price">$15</div>
+                  <div class="buy"><i class="fa fa-cart-shopping"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end menu  -->
+    <!-- start about  -->
+    <div id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <div class="image">
+              <img src="images/about-img.png" alt="" />
+            </div>
+            <div class="text-info">
+              <h1>We are The Eng Burger</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                dicta perferendis rerum recusandae sed in dolorem commodi nulla
+                temporibus alias harum laudantium minus explicabo necessitatibus
+                quis eligendi dolor, eveniet voluptatum. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Quidem amet quia, inventore
+                eos blanditiis praesentium laborum magnam quaerat reprehenderit
+                repellat tempora aliquid omnis facilis consectetur illo dolore
+                dolorum! Nam, quidem?
+              </p>
+              <div class="button">READ MORE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about  -->
+    <!-- start footer  -->
+    <footer>
+      <div class="container">
+        <div class="footer-info">
+          <div class="contact-us">
+            <h1>Contact Us</h1>
+            <p><i class="fa-solid fa-location-dot"></i> Location</p>
+            <p>
+              <i class="fa fa-phone" aria-hidden="true"></i>Call +963 0999999123
+            </p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i
+              >EngBurger@mail.com
+            </p>
+          </div>
+          <div class="social">
+            <h1>Eng Burger</h1>
+            <p>
+              Necessary , making this the first true generator on the internet.
+              it uses a dictionary of over 200 latin words combined with
+            </p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="timing">
+            <h1>Opening Hours</h1>
+            <p>Everyday</p>
+            <p>10:00 AM - 10:00 PM</p>
+          </div>
+        </div>
+        <div class="rights">
+          &copy;2023 All Rights Reserved By Al-Rashid Association
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+  </body>
+</html>
+
+<!-- 400 heheheheheh -->
